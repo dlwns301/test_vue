@@ -1,16 +1,27 @@
 <template>
-  <div>
-
-  </div>
+  <TheNav></TheNav>
+  <TheView></TheView>
 </template>
 
 <script>
-export default {
-  setup () {
-    
 
-    return {}
-  }
+import TheNav from "../components/TheNav.vue";
+import TheView from "../components/TheView.vue";
+import { ref,watch } from 'vue';
+
+export default {
+  components: {
+    TheNav,
+    TheView,
+  },
+
+  setup () { 
+    return {
+      // data
+      // computed
+      // methods
+    };
+}
 }
 </script>
 
